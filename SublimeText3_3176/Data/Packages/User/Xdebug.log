@@ -1,0 +1,95 @@
+[08/15/2018 06:43:21PM] INFO - ==== Loading 'SublimeTextXdebug-master' package ====
+[08/15/2018 06:43:21PM] INFO - Failed to open C:\Software\Sublime_Text3_Stable_Build_3143_x64_Chs\SublimeText3\Data\Packages\User\Xdebug.breakpoints.
+[08/15/2018 06:43:21PM] INFO - Failed to parse C:\Software\Sublime_Text3_Stable_Build_3143_x64_Chs\SublimeText3\Data\Packages\User\Xdebug.breakpoints.
+[08/15/2018 06:43:21PM] INFO - Failed to open C:\Software\Sublime_Text3_Stable_Build_3143_x64_Chs\SublimeText3\Data\Packages\User\Xdebug.expressions.
+[08/15/2018 06:43:21PM] INFO - Failed to parse C:\Software\Sublime_Text3_Stable_Build_3143_x64_Chs\SublimeText3\Data\Packages\User\Xdebug.expressions.
+[08/15/2018 06:48:50PM] DEBUG - Event present in queue
+[08/15/2018 06:48:50PM] DEBUG - Trying to send event to platform
+[08/15/2018 06:48:50PM] DEBUG - {'source': 'Sublime Text Plugin', 'version': 'v0.0.17', 'objectTags': ['Computer', 'Software'], 'dateTime': '2018-08-15T18:48:34.295906+08:00', 'properties': {'duration': 76, 'Environment': 'Sublime Text 3176'}, 'streamid': '', 'actionTags': ['Develop']}
+[08/15/2018 06:48:50PM] DEBUG - Event not sent due to some problem
+[08/15/2018 06:48:50PM] ERROR - <urlopen error [Errno 11001] getaddrinfo failed>
+Traceback (most recent call last):
+  File "./python3.3/urllib/request.py", line 1248, in do_open
+  File "./python3.3/http/client.py", line 1065, in request
+  File "./python3.3/http/client.py", line 1103, in _send_request
+  File "./python3.3/http/client.py", line 1061, in endheaders
+  File "./python3.3/http/client.py", line 906, in _send_output
+  File "./python3.3/http/client.py", line 844, in send
+  File "./python3.3/http/client.py", line 822, in connect
+  File "./python3.3/socket.py", line 417, in create_connection
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Software\Sublime_Text3_Stable_Build_3143_x64_Chs\SublimeText3\Data\Installed Packages\1Self.sublime-package\1self.py", line 261, in send_events_from_queue
+    self.send_event_to_platform(event)
+  File "C:\Software\Sublime_Text3_Stable_Build_3143_x64_Chs\SublimeText3\Data\Installed Packages\1Self.sublime-package\1self.py", line 280, in send_event_to_platform
+    response = urllib2.urlopen(req)
+  File "./python3.3/urllib/request.py", line 156, in urlopen
+  File "./python3.3/urllib/request.py", line 469, in open
+  File "./python3.3/urllib/request.py", line 487, in _open
+  File "./python3.3/urllib/request.py", line 447, in _call_chain
+  File "./python3.3/urllib/request.py", line 1274, in http_open
+  File "./python3.3/urllib/request.py", line 1251, in do_open
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+[08/15/2018 06:53:50PM] DEBUG - Event present in queue
+[08/15/2018 06:53:50PM] DEBUG - Trying to send event to platform
+[08/15/2018 06:53:50PM] DEBUG - {'source': 'Sublime Text Plugin', 'version': 'v0.0.17', 'objectTags': ['Computer', 'Software'], 'dateTime': '2018-08-15T18:48:34.295906+08:00', 'properties': {'duration': 76, 'Environment': 'Sublime Text 3176'}, 'streamid': '', 'actionTags': ['Develop']}
+[08/15/2018 06:53:50PM] DEBUG - Event not sent due to some problem
+[08/15/2018 06:53:50PM] ERROR - <urlopen error [Errno 11001] getaddrinfo failed>
+Traceback (most recent call last):
+  File "./python3.3/urllib/request.py", line 1248, in do_open
+  File "./python3.3/http/client.py", line 1065, in request
+  File "./python3.3/http/client.py", line 1103, in _send_request
+  File "./python3.3/http/client.py", line 1061, in endheaders
+  File "./python3.3/http/client.py", line 906, in _send_output
+  File "./python3.3/http/client.py", line 844, in send
+  File "./python3.3/http/client.py", line 822, in connect
+  File "./python3.3/socket.py", line 417, in create_connection
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Software\Sublime_Text3_Stable_Build_3143_x64_Chs\SublimeText3\Data\Installed Packages\1Self.sublime-package\1self.py", line 261, in send_events_from_queue
+    self.send_event_to_platform(event)
+  File "C:\Software\Sublime_Text3_Stable_Build_3143_x64_Chs\SublimeText3\Data\Installed Packages\1Self.sublime-package\1self.py", line 280, in send_event_to_platform
+    response = urllib2.urlopen(req)
+  File "./python3.3/urllib/request.py", line 156, in urlopen
+  File "./python3.3/urllib/request.py", line 469, in open
+  File "./python3.3/urllib/request.py", line 487, in _open
+  File "./python3.3/urllib/request.py", line 447, in _call_chain
+  File "./python3.3/urllib/request.py", line 1274, in http_open
+  File "./python3.3/urllib/request.py", line 1251, in do_open
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+[08/15/2018 06:58:50PM] DEBUG - Event present in queue
+[08/15/2018 06:58:50PM] DEBUG - Trying to send event to platform
+[08/15/2018 06:58:50PM] DEBUG - {'source': 'Sublime Text Plugin', 'version': 'v0.0.17', 'objectTags': ['Computer', 'Software'], 'dateTime': '2018-08-15T18:48:34.295906+08:00', 'properties': {'duration': 76, 'Environment': 'Sublime Text 3176'}, 'streamid': '', 'actionTags': ['Develop']}
+[08/15/2018 06:58:50PM] DEBUG - Event not sent due to some problem
+[08/15/2018 06:58:50PM] ERROR - <urlopen error [Errno 11001] getaddrinfo failed>
+Traceback (most recent call last):
+  File "./python3.3/urllib/request.py", line 1248, in do_open
+  File "./python3.3/http/client.py", line 1065, in request
+  File "./python3.3/http/client.py", line 1103, in _send_request
+  File "./python3.3/http/client.py", line 1061, in endheaders
+  File "./python3.3/http/client.py", line 906, in _send_output
+  File "./python3.3/http/client.py", line 844, in send
+  File "./python3.3/http/client.py", line 822, in connect
+  File "./python3.3/socket.py", line 417, in create_connection
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Software\Sublime_Text3_Stable_Build_3143_x64_Chs\SublimeText3\Data\Installed Packages\1Self.sublime-package\1self.py", line 261, in send_events_from_queue
+    self.send_event_to_platform(event)
+  File "C:\Software\Sublime_Text3_Stable_Build_3143_x64_Chs\SublimeText3\Data\Installed Packages\1Self.sublime-package\1self.py", line 280, in send_event_to_platform
+    response = urllib2.urlopen(req)
+  File "./python3.3/urllib/request.py", line 156, in urlopen
+  File "./python3.3/urllib/request.py", line 469, in open
+  File "./python3.3/urllib/request.py", line 487, in _open
+  File "./python3.3/urllib/request.py", line 447, in _call_chain
+  File "./python3.3/urllib/request.py", line 1274, in http_open
+  File "./python3.3/urllib/request.py", line 1251, in do_open
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>

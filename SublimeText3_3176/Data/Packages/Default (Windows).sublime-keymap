@@ -1,0 +1,8 @@
+[
+
+	{ 
+	    "keys": ["ctrl+shift+;"], "command": "insert_datetime",
+	    "args": {"format": "ymdhms"}
+	}
+
+]

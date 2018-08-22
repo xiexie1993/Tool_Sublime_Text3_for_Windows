@@ -1,0 +1,20 @@
+[
+    { 
+        "keys": ["ctrl+Alt+shift+1"], "command": "move_to_group", "args": { "group": 0 } 
+    },
+    { 
+        "keys": ["ctrl+Alt+shift+2"], "command": "move_to_group", "args": { "group": 1 } 
+    }, 
+    { 
+        "keys": ["ctrl+Alt+shift+3"], "command": "move_to_group", "args": { "group": 2 } 
+    }, 
+    { 
+        "keys": ["ctrl+Alt+shift+4"], "command": "move_to_group", "args": { "group": 3 } 
+    },
+    { "keys": ["ctrl+shift+;"], "command": "insert_datetime", "args": {"format": "ymdhms"} },
+    { "keys": ["ctrl+alt+k"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["ctrl+alt+j"], "command": "select_lines", "args": {"forward": true} },
+    { "keys":["alt+shift+ctrl+up"],"command":"select_lines", "args": {"forward": false} },
+    { "keys":["alt+shift+ctrl+down"],"command":"select_lines","args": { "forward": true} },
+    { "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} }
+]
