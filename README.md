@@ -1,4 +1,4 @@
-#Sublime_Text3_Stable_Build_3143_x64_Chs 免安装版 使用说明
+# Sublime_Text3_Stable_Build_3143_x64_Chs 免安装版 使用说明
 
 ## 一、概述
 
@@ -89,8 +89,13 @@
 ## 五、使用技巧
 
 ### 1、清除本地使用记录
-+ 1、关闭软件
-+ 2、删除软件安装位置目录/Sublime_Text3_Stable_Build_3143_x64_Chs/Sublime Text/Data/Local/Session.sublime_session 文件
+    + 1、关闭软件
+    + 2、删除软件安装位置目录/Sublime_Text3_Stable_Build_3143_x64_Chs/Sublime Text/Data/Local/Session.sublime_session 文件
+    
+### 2、开启vim模式
+    + 1、在菜单栏中： Preferences -> Setting - User 即可打开配置文件进行编辑，将 ignored_packages 项的["Vintage"]里面内容清空,变为："ignored_packages": [],再按 Esc 退出编辑模式，即进入了 Vim 模式。
+    + 参考资料：
+        + [sublime开启vim模式](https://blog.csdn.net/gb4215287/article/details/78999787)
 
 ## 六、插件安装记录
 
