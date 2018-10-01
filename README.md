@@ -97,10 +97,49 @@
     + 参考资料：
         + [sublime开启vim模式](https://blog.csdn.net/gb4215287/article/details/78999787)
 
+### 3、配置列编辑快捷键
+    + 1、在菜单栏中 首选项 -> 按键绑定-用户
+    ~~~
+    [
+        { 
+            "keys": ["ctrl+Alt+shift+1"], "command": "move_to_group", "args": { "group": 0 } 
+        },
+        { 
+            "keys": ["ctrl+Alt+shift+2"], "command": "move_to_group", "args": { "group": 1 } 
+        }, 
+        { 
+            "keys": ["ctrl+Alt+shift+3"], "command": "move_to_group", "args": { "group": 2 } 
+        }, 
+        { 
+            "keys": ["ctrl+Alt+shift+4"], "command": "move_to_group", "args": { "group": 3 } 
+        },
+        { "keys": ["ctrl+shift+;"], "command": "insert_datetime", "args": {"format": "ymdhms"} },
+        { "keys": ["ctrl+alt+k"], "command": "select_lines", "args": {"forward": false} },
+        { "keys": ["ctrl+alt+j"], "command": "select_lines", "args": {"forward": true} },
+        { "keys":["alt+shift+ctrl+up"],"command":"select_lines", "args": {"forward": false} },
+        { "keys":["alt+shift+ctrl+down"],"command":"select_lines","args": { "forward": true} },
+        { "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} }
+    ]
+    ~~~
+
+
 ## 六、插件安装记录
 
-### IMESupport-master时间：2018年6月20日23:16:30
+### IMESupport-master 时间：2018年6月20日23:16:30
 + 解决问题
 	* 输入光标位置不对
 + 参考资料
     * [SublimeText中输入法光标位置不对的解决方法](https://blog.csdn.net/zk673820543/article/details/51242196)
+
+### 文件对比插件 Sublimerge 3.sublime-package 时间：2018-10-01 22:36:41
+
++ 安装步骤：
+    + 下载安装包: Sublimerge 3.sublime-package（https://www.sublimerge.com/packages/ST3/latest/Sublimerge%203.sublime-package）
+    + Go to Preferences > Browse Packages... 或直接放在该安装包的Data\Installed Packages下
+    + Go one folder up
+    + Go to Installed Packages
+    + Copy the package to that directory
+    + Restart Sublime Text
++ 参考资料：
+    + [sublimerge插件下载地址](http://www.sublimerge.com)
+    + [sublime非常好用的文件对比插件--sublimerge](https://blog.csdn.net/a0405221/article/details/78769672)
